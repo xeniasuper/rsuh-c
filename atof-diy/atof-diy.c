@@ -47,5 +47,7 @@ int main()
 
     double res = MyAtof(str);
     printf("%f", res);
+
+    free(str);
     return 0;
 }
