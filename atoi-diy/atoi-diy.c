@@ -27,5 +27,6 @@ int main()
     int value = my_atoi(str);
     printf("%d", value);
 
+    free(str);
     return 0;
 }
