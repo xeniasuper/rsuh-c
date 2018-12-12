@@ -1,3 +1,0 @@
-/home/xenia/CLionProjects/rsuh-c/я решила упороться/atof-diy/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/xenia/CLionProjects/rsuh-c/я решила упороться/atof-diy/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/xenia/CLionProjects/rsuh-c/я решила упороться/atof-diy/cmake-build-debug/CMakeFiles/atof.dir
