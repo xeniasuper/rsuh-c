@@ -7,7 +7,7 @@
 void ScanArray(const int array_size, const int *array);
 void PrintArray(const int array_size, const int *array);
 bool IsInArray(const int elem, const int* array, const int array_size);
-void IntersectAB(int len_arr1, int *arr1, int len_arr2, int *arr2,  int * ptr_len_intersection, int *intersection);
+void IntersectTwoArrays(int len_arr1, int *arr1, int len_arr2, int *arr2,  int * ptr_len_intersection, int *intersection);
 
 int main()
 {
@@ -33,7 +33,7 @@ int main()
     int len_intersection = 0;
     int * ptr_len_intersection = &len_intersection;
 
-    IntersectAB(len_arr1, arr1, len_arr2, arr2, ptr_len_intersection, intersection);
+    IntersectTwoArrays(len_arr1, arr1, len_arr2, arr2, ptr_len_intersection, intersection);
     PrintArray(len_intersection, intersection);
 
     free(arr1);
@@ -76,7 +76,7 @@ bool IsInArray(const int elem, const int* array, const int array_size)
     return flag;
 }
 
-void IntersectAB(int len_arr1, int *arr1, int len_arr2, int *arr2,  int * ptr_len_intersection, int *intersection)
+void IntersectTwoArrays(int len_arr1, int *arr1, int len_arr2, int *arr2,  int * ptr_len_intersection, int *intersection)
 {
     int idx_intersection = 0; // в элемент массива с с этим индексом кладем нужный элемент из а
     for (int i = 0; i < len_arr1; i++)
