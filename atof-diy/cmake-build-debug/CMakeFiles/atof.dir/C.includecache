@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xenia/CLionProjects/rsuh-c/я решила упороться/atof-diy/main.c
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+
